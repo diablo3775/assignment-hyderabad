@@ -1,0 +1,60 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero-text-font {
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+  height: 48px;
+  width: 631px;
+  max-width: 40rem;
+  margin-top: 2rem;
+}
+
+.hero-text-font-two {
+  position: relative;
+  color: white;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 90%;
+  max-width: 800px;
+}
+
+.hero-text-font-three {
+  position: relative;
+  color: white;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 90%;
+  max-width: 800px;
+}
+
+.hero-text-font-four {
+  position: relative;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #C5B5A6;
+  border: 1px solid black;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 7rem;
+  right: 0;
+  padding: 1rem;
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+body {
+  font-family: 'Gabriela',sans-serif;
+  background-color: #EAE9E4;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100%;
+}

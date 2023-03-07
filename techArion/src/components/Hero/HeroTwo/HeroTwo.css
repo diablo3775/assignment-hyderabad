@@ -1,0 +1,77 @@
+.hero-two {
+  position: relative;
+  width: 100%;
+  height: 893px;
+  top: 0;
+  background: #FFFFFF;
+}
+
+.hero-two-text-container {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  font-size: 2rem;
+  color: #737373;
+}
+
+.rotate {
+  position: absolute;
+  left: 89%;
+  top: -10%;
+  animation: rotation 15s infinite linear;
+  width: 35rem;
+  height: 35rem;
+}
+
+.table {
+  position: absolute;
+  left: -15%;
+}
+
+.chair {
+  position: absolute;
+  right: -13%;
+  top: 0;
+}
+
+.hifen {
+  display: flex;
+  position: absolute;
+  left: -5%;
+  bottom: 70%;
+  opacity: 0.3;
+}
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  
+  @media screen and (min-width: 1366px) {
+    .rotate {
+    position: absolute;
+    left: 79%;
+    top: -10%;
+    animation: rotation 15s infinite linear;
+    width: 35rem;
+    height: 35rem;
+    }
+    }
+    
+    @media screen and (min-width: 1920px) {
+    .rotate {
+      position: absolute;
+      left: 89%;
+      top: -10%;
+      animation: rotation 15s infinite linear;
+      width: 35rem;
+      height: 35rem;
+    }
+    }
